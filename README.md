@@ -3,6 +3,10 @@ A ggplot2 geom for adding Bernie Sandners
 
 This is a package inspired by a [tweet](https://twitter.com/samuelmehr/status/1352348108013895693) by [@samuelmehr](https://twitter.com/samuelmehr)
 
++ Follow me on [Twitter](https://twitter.com/RCoderWeb)
++ Follow me on [Facebook](https://www.facebook.com/RCODERweb)
++ Visit my [R programming site](https://r-coder.com/)
+
 
 ## Bernie sitting
 ```r
@@ -75,7 +79,7 @@ ggplot(mtcars) +
 </p>
 
 
-## Bernie eyebrows
+## Bernie asking
 
 ```r
 ggplot(mtcars) +
