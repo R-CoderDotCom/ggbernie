@@ -1,0 +1,13 @@
+Package: ggbernie
+Title: A Geom for Adding Bernies
+Version: 1.0
+Authors@R: 
+    person("R", "CODER",
+           role = c("aut", "cre"), email = "support.rcoder@protonmail.com")
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+Imports: ggplot2, png
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
