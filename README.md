@@ -1,6 +1,8 @@
 # ggbernie
 A ggplot2 geom for adding Bernie Sandners
 
+This is a package inspired by a [tweet](https://twitter.com/samuelmehr/status/1352348108013895693) by [@samuelmehr](https://twitter.com/samuelmehr)
+
 
 ## Example 1
 ```r
