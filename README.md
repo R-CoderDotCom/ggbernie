@@ -73,3 +73,16 @@ ggplot(mtcars) +
 <p align="center">
  <img src="https://user-images.githubusercontent.com/67192157/105522372-711a2a00-5cdd-11eb-9b15-c490bbf1f5ad.png">
 </p>
+
+
+## Bernie eyebrows
+
+```r
+ggplot(mtcars) +
+  geom_bernie(aes(mpg, wt), bernie = "asking")
+```
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/67192157/105522716-dec65600-5cdd-11eb-844f-62b530bdd8ea.png">
+</p>
+
