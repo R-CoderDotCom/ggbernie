@@ -2,7 +2,7 @@
 % Please edit documentation in R/ggbernie.R
 \name{draw_key_bernie}
 \alias{draw_key_bernie}
-\title{Key Lime}
+\title{Key Bernie}
 \usage{
 draw_key_bernie(data, params, size)
 }
@@ -10,5 +10,5 @@ draw_key_bernie(data, params, size)
 \item{data, params, size}{key stuff}
 }
 \description{
-Key Lime
+Key Bernie
 }

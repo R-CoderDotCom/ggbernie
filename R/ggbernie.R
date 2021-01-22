@@ -1,12 +1,12 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#' Key Lime
+#' Key Bernie
 #'
 #' @param data,params,size key stuff
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 draw_key_bernie <-  function(data, params, size) {
 
   filename <- system.file(paste0(data$bernie, ".png"), package = "ggbernie", mustWork = TRUE)
-  print(filename)
+  # print(filename)
   img <- as.raster(png::readPNG(filename))
   aspect <- dim(img)[1]/dim(img)[2]
   # rasterGrob
@@ -14,8 +14,13 @@ draw_key_bernie <-  function(data, params, size) {
 }
 
 # bernieGrob
-bernieGrob <- function(x, y, size, bernie = "bernie1", geom_key = list(bernie1 = "bernie1.png",
-                                                                       bernie2 = "bernie2.png")) {
+bernieGrob <- function(x, y, size, bernie = "bernie1", geom_key = list(sitting = "sitting.png",
+                                                                       stand = "stand.png",
+                                                                       head = "head.png",
+                                                                       asking = "asking.png",
+                                                                       young = "young.png",
+                                                                       arms = "arms.png",
+                                                                       eyebrows = "eyebrows.png")) {
 
   filename <- system.file(geom_key[[unique(bernie)]], package = "ggbernie", mustWork = TRUE)
   img <- as.raster(png::readPNG(filename))
@@ -61,11 +66,11 @@ GeomBernie <- ggplot2::ggproto(`_class` = "GeomBernie",
 #'library(ggplot2)
 #'
 #' ggplot(mtcars) +
-#'  geom_bernie(aes(mpg, wt, size = cyl), bernie = "bernie1") +
+#'  geom_bernie(aes(mpg, wt), bernie = "sitting") +
 #'  theme_bw()
 #'
 #' ggplot(mtcars) +
-#'  geom_bernie(aes(mpg, wt, size = cyl), bernie = "bernie2") +
+#'  geom_bernie(aes(mpg, wt), bernie = "head") +
 #'  theme_bw()
 #'
 #' @importFrom grDevices as.raster
@@ -88,4 +93,7 @@ geom_bernie <- function(mapping = NULL,
                  inherit.aes = inherit.aes,
                  params = list(na.rm = na.rm, ...))
 }
+
+
+
 

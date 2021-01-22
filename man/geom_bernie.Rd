@@ -70,11 +70,11 @@ The geom is used to add Bernie Sanders to plots. See ?ggplot2::geom_points for m
 library(ggplot2)
 
 ggplot(mtcars) +
- geom_bernie(aes(mpg, wt, size = cyl), bernie = "bernie1") +
+ geom_bernie(aes(mpg, wt), bernie = "sitting") +
  theme_bw()
 
 ggplot(mtcars) +
- geom_bernie(aes(mpg, wt, size = cyl), bernie = "bernie2") +
+ geom_bernie(aes(mpg, wt), bernie = "head") +
  theme_bw()
 
 }
