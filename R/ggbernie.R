@@ -14,7 +14,7 @@ draw_key_bernie <-  function(data, params, size) {
 }
 
 # bernieGrob
-bernieGrob <- function(x, y, size, bernie = "bernie1", geom_key = list(sitting = "sitting.png",
+bernieGrob <- function(x, y, size, bernie = "sitting", geom_key = list(sitting = "sitting.png",
                                                                        stand = "stand.png",
                                                                        head = "head.png",
                                                                        asking = "asking.png",
