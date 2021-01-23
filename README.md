@@ -8,6 +8,12 @@ This is a package inspired by a [tweet](https://twitter.com/samuelmehr/status/13
 + Visit my [R programming site](https://r-coder.com/)
 
 
+## Installation
+```r
+# install.packages("remotes")
+remotes::install_github("R-CoderDotCom/ggbernie@main")
+```
+
 ## Bernie sitting
 ```r
 ggplot(mtcars) +
