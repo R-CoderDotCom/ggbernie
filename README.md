@@ -130,3 +130,4 @@ ggbackground(p, plane)
 </p>
 
 
+The `draw_key_bernie` function was inspired by `draw_key_lime` from `geom_lime`.
