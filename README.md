@@ -1,5 +1,5 @@
 # ggbernie
-A ggplot2 geom for adding Bernie Sanders. This is a core package of the memeverse.
+A ggplot2 geom for adding Bernie Sanders. This is a core package of the memeverse. Check also [ggcats](https://github.com/R-CoderDotCom/ggcats).
 
 This is a package inspired by a [tweet](https://twitter.com/samuelmehr/status/1352348108013895693) by [@samuelmehr](https://twitter.com/samuelmehr)
 
