@@ -4,7 +4,7 @@ Version: 1.0
 Authors@R: 
     person("R", "CODER",
            role = c("aut", "cre"), email = "support.rcoder@protonmail.com")
-Description: What the package does (one paragraph).
+Description: Allows adding Bernie Sanders to ggplot2 as a geom equivalent to geom_point
 License: GPL-3
 Encoding: UTF-8
 Imports: ggplot2, png
