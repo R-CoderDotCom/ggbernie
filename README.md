@@ -8,6 +8,8 @@ This is a package inspired by a [tweet](https://twitter.com/samuelmehr/status/13
 + Visit my [R programming site](https://r-coder.com/)
 
 
+<a href="https://www.buymeacoffee.com/RCODER"><img class="mt-5 hover-bmc" src="https://img.buymeacoffee.com/button-api/?text=Support%20R%20CHARTS%20&amp;emoji=📊&amp;slug=RCODER&amp;button_colour=67c9ff&amp;font_colour=ffffff&amp;font_family=Poppins&amp;outline_colour=000000&amp;coffee_colour=FFDD00"></a>
+
 ## Installation
 ```r
 # install.packages("remotes")
