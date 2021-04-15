@@ -1,15 +1,18 @@
 # ggbernie
+
+<p align="center">
+      <a href="https://twitter.com/RCoderWeb" alt="Twitter Badgee">
+        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+      <a href="https://www.facebook.com/RCODERweb" alt="Facebook Badge">
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+</p>
+
 A ggplot2 geom for adding Bernie Sanders. This is a core package of the memeverse. Check also [ggcats](https://github.com/R-CoderDotCom/ggcats).
 
 This is a package inspired by a [tweet](https://twitter.com/samuelmehr/status/1352348108013895693) by [@samuelmehr](https://twitter.com/samuelmehr)
 
-+ Follow me on [Twitter](https://twitter.com/RCoderWeb)
-+ Follow me on [Facebook](https://www.facebook.com/RCODERweb)
 + Visit my [R programming site](https://r-coder.com/)
 
-<p align = "center">
-<a href="https://www.buymeacoffee.com/RCODER"><img class="mt-5 hover-bmc" src="https://img.buymeacoffee.com/button-api/?text=Support%20R%20CHARTS%20&amp;emoji=📊&amp;slug=RCODER&amp;button_colour=67c9ff&amp;font_colour=ffffff&amp;font_family=Poppins&amp;outline_colour=000000&amp;coffee_colour=FFDD00"></a>
-</p>
 
 ## Installation
 ```r
